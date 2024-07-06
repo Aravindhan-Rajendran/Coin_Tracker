@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COIN TRACKER</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://play-lh.googleusercontent.com/gvnujHTPCJkCOlMpH8vx2xuiU7rHCgJcH4UeGvHnLnxUjvqYjK_y0_qRQkSOgLldIw">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div id="head">
+            <input type="text" placeholder="Search By Name or Symbol" id="searchbar" />
+            <button id="marketcap-btn" type="button">Sort by Mkt Cap</button>
+            <button id="percentage-btn" type="button">Sort by Percentage</button>
+        </div>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Logo</th>
+                    <th>Symbol</th>
+                    <th>Price (USD)</th>
+                    <th>Volume</th>
+                    <th>Change (24h)</th>
+                    <th>Market Cap</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
